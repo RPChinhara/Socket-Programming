@@ -1,5 +1,4 @@
 import Pyro4
-import os
 import datetime
 
 Client = Pyro4.Proxy('PYRONAME:RMI.calculator')
